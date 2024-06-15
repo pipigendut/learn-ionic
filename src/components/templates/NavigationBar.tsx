@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, IonRouterOutlet } from '@ionic/react';
-import { playCircle, person } from 'ionicons/icons';
+import { home, person } from 'ionicons/icons';
 import Home from '../../pages/Home/Home';
 import Profile from '../../pages/Profile/Profile';
 import PrivateRoute from './PrivateRoute';
@@ -15,7 +15,7 @@ const NavigationBar: React.FC = () => {
 
       <IonTabBar slot="bottom">
         <IonTabButton tab="home" href="/home">
-          <IonIcon icon={playCircle} />
+          <IonIcon icon={home} />
           <IonLabel>Home</IonLabel>
         </IonTabButton>
 
