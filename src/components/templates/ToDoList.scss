@@ -1,0 +1,65 @@
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  
+  h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  ion-segment {
+    width: auto;
+  }
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+
+  .completed {
+    text-decoration: line-through;
+  }
+
+  ion-buttons {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+
+  ion-input {
+    flex: 1;
+    margin-right: 8px;
+  }
+
+  ion-button {
+    margin-left: 8px;
+  }
+}
+
+.todohero_section {
+  border: 1px solid #c2b39a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+  padding: 12px;
+  border-radius: 11px;
+}
+.todohero_section div:last-child {
+  background-color: #88ab33;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

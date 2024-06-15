@@ -1,0 +1,53 @@
+.login-container {
+  background: hwb(0 94% 6%); /* Background color cream */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; /* Mengatur vertikal center */
+  height: 100%; /* Memastikan kontainer mengisi tinggi dari parent (login-content) */
+
+  .login-header {
+    color: black;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .login-form {
+    background: #fff;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(218, 220, 224);
+    margin-bottom: 20px;
+  }
+
+  .login-image {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  IonItem {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+
+  .login-button,
+  .register-button {
+    margin-top: 15px;
+  }
+
+  .app-version {
+    color: black;
+  }
+}
